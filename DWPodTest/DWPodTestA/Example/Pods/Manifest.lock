@@ -1,0 +1,27 @@
+PODS:
+  - DWPodTestA (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DWPodTestA (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DWPodTestA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DWPodTestA: 07a2466807ca4a0b9d6ee21f27c3fc9d2bb5ffba
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 4f37abac629d12e3c4a993748fa61c7e4b4b85ec
+
+COCOAPODS: 1.6.0.rc.1

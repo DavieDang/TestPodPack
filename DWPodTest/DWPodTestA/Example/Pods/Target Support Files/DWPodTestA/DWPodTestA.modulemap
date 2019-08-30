@@ -1,0 +1,6 @@
+framework module DWPodTestA {
+  umbrella header "DWPodTestA-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DWPodTestA",
+  "version": "0.1.0",
+  "summary": "A short description of DWPodTestA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1124403942@qq.com/DWPodTestA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1124403942@qq.com": "daviedang@163.com"
+  },
+  "source": {
+    "git": "https://github.com/1124403942@qq.com/DWPodTestA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DWPodTestA/Classes/**/*"
+}
