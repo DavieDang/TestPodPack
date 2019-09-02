@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint DWPodTestA.podspec' to ensure this is a
+# Be sure to run `pod lib lint DWPodTest.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DWPodTestA'
-  s.version          = '0.1.0'
-  s.summary          = 'A ssssssss of DWPodTestA.'
+  s.name             = 'DWPodTest'
+  s.version          = '0.1.1'
+  s.summary          = 'is a test demo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1124403942@qq.com/DWPodTestA'
+  s.homepage         = 'https://github.com/DavieDang/TestPodPack'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = 'MIT'
   s.author           = { '1124403942@qq.com' => 'daviedang@163.com' }
-  s.source           = { :git => 'https://github.com/1124403942@qq.com/DWPodTestA.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/DavieDang/TestPodPack.git', :tag => s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.source_files = 'DWPodTestA/**/*.{h,m}'
-  s.requires_arc = true
-  s.platform = :ios,'8.0'
-  
+  s.platform = :ios,'9.0'
+  s.source_files = 'DWPodTest/Classes/*.{h,m}'
   # s.resource_bundles = {
-  #   'DWPodTestA' => ['DWPodTestA/Assets/*.png']
+  #   'DWPodTest' => ['DWPodTest/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'AFNetworking', '~> 2.3'
 end

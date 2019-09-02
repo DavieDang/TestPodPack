@@ -1,6 +1,0 @@
-framework module Pods_DWPodTestA_Example {
-  umbrella header "Pods-DWPodTestA_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
