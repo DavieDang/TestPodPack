@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :ios,'9.0'
-  s.source_files = 'DWPodTest/Classes/*.{h,m}'
+  s.source_files = 'DWPodTest/**/*.{h,m}'
   # s.resource_bundles = {
   #   'DWPodTest' => ['DWPodTest/Assets/*.png']
   # }
